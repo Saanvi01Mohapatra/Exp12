@@ -44,7 +44,15 @@ int main()
     return 0;
 }
 ```
-Defining the constructor outside the class:
+## output:
+```
+Enter the RollNo: 110
+Enter the Name: saanvi
+Enter the Fee: 1000
+
+110	saanvi	1000
+```
+## Defining the constructor outside the class:
 ```
 //Name: Saanvi
 //Prn: 23070123110
@@ -63,7 +71,6 @@ public:
     student();
     void display();
 };
-
 student::student()
 {
     cout << "Enter the RollNo: ";
@@ -86,7 +93,15 @@ int main()
     return 0;
 }
 ```
-Default constructor:
+## output:
+```
+Enter the RollNo: 110
+Enter the Name: saanvi
+Enter the Fee: 100
+
+110	saanvi	100
+```
+## Default constructor:
 ```
 //Name: Saanvi
 //Prn: 23070123110
@@ -123,8 +138,19 @@ int main() {
     d1.display();
 }
 ```
-Parameterized constructor:
+## output:
 ```
+Name: saanvi
+Roll Number: 110
+Department: entc
+Batch: 23-27
+
+DETAILS:
+saanvi 110 entc 23
+```
+## Parameterized constructor:
+```
+
 //Name: Saanvi
 //Prn: 23070123110
 //Class: EnTC B-2
@@ -153,8 +179,12 @@ int main()
     Num n1(4,3);
     }
 ```
+## output:
 ```
-
+46 is greater
+```
+## copy constructor:
+```
 //Name: Saanvi
 //Prn: 23070123110
 //Class: EnTC B-2
