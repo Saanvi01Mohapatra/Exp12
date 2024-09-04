@@ -11,8 +11,7 @@ Defining the constructor inside the class:
 //Prn: 23070123110
 //Class: EnTC B-2
 
-cpp
-Copy code
+
 #include<iostream>
 using namespace std;
 
@@ -51,8 +50,6 @@ Defining the constructor outside the class:
 //Prn: 23070123110
 //Class: EnTC B-2
 
-cpp
-Copy code
 #include<iostream>
 using namespace std;
 
