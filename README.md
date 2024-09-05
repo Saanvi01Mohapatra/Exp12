@@ -228,13 +228,17 @@ int main() {
     return 0;
 }
 ```
-Destructors:
+## output:
+```
+1001	Manjeet	10000
+1001	Manjeet	10000
+```
+## Destructors:
+```
 //Name: Saanvi
 //Prn: 23070123110
 //Class: EnTC B-2
 
-
-```
 #include<iostream>
 using namespace std;
 
@@ -263,6 +267,17 @@ int main()
     }
     return 0;
 }
+```
+## output:
+```
+No. of objects created: 1
+No. of objects created: 2
+No. of objects created: 3
+No. of objects created: 4
+No. of objects destroyed: 3
+No. of objects destroyed: 2
+No. of objects destroyed: 1
+No. of objects destroyed: 0
 ```
 Conclusion:
 In summary, constructors in C++ are essential for initializing objects and ensuring that they start in a valid state. With their automatic invocation upon object creation, lack of a return type, and support for overloading, constructors provide flexibility in object initialization. While typically defined in the public section of a class, they can also be made private or protected to control object creation. Understanding how to effectively define and utilize constructors is fundamental for robust and efficient C++ programming.
